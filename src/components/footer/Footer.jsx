@@ -5,16 +5,18 @@ import Col from "react-bootstrap/Col"
 
 
 function Footer() {
-    return(
-        <footer className="mt-5">
-            <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0 text-center">
-                        Neal Gerber
+    return (
+        <div id="background">
+            <footer className="mt-5 bg-dark fixed-bottom" sticky="bottom">
+                <Container fluid={true}>
+                    <Row className="justify-content-between p-3">
+                        <Col className="p-0 text-center text-warning font-weight-bold">
+                            Neal Gerber
                     </Col>
-                </Row>
-            </Container>
-        </footer>
+                    </Row>
+                </Container>
+            </footer>
+        </div>
     )
 }
 

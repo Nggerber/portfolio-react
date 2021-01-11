@@ -40,3 +40,20 @@
 body {
   background-color: aqua;
 }
+
+body{
+  background-color:#333333 !important;
+}
+
+#portfolio-text {
+  background-color: #404040;
+  color: blanchedalmond !important;
+}
+
+#portfolio-image {
+  background-color: #404040;
+}
+
+#homepage-text {
+  color: blanchedalmond !important;;
+}
