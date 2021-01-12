@@ -43,6 +43,8 @@ body {
 
 body{
   background-color:#333333 !important;
+  padding-bottom: 120px !important;
+  padding-top: 50px !important;
 }
 
 #portfolio-text {

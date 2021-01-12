@@ -7,11 +7,13 @@ import utahsnapshot from "../../Images/utahsnapshot.png"
 import amalga from "../../Images/amalga.png"
 import weatherdash from "../../Images/weatherdashboard.png"
 import dayplanner from "../../Images/dayplanner.png"
+import budget from "../../Images/budget.png"
+import burger from "../../Images/burger.png"
 
 function Portfolio(props) {
     return (
         <Container className="p-3">
-            <h2> Take a look at some of my Projects</h2>
+            <h2 id="homepage-text"> Take a look at some of my Projects</h2>
             <Row>
                 <Col>
                     <Container className="p-2">
@@ -53,6 +55,19 @@ function Portfolio(props) {
                         </h6>
                         
                     </Container>
+                    <Container className="p-2">
+                        <Image id="portfolio-image" className="block-example border border-dark rounded mb-0 p-3" src={burger} fluid alt="me with my millenium falcon shirt" />
+                        <h6 id="portfolio-text" className="block-example border border-dark rounded mb-0 p-3 mt-2">The Burger Logger is a fullstack aplication that uses mySQL to log the users burger creations. The user is allowed to make burger crteations in the input field. And then slect if these burgers have been eaten and these values are updated in the database.
+                        <br/>
+                        <br/>
+                        <a href="https://afternoon-refuge-15473.herokuapp.com/">Link to Deployed Application</a>
+                        <br/>
+                        <br/>
+                        <a href="https://github.com/Nggerber/your-burger-creator">My GitHub Pages Link</a>
+                        <br/>
+                        <br/>
+                        </h6>
+                    </Container>
                 </Col>
                 <Col>
                     <Container className="p-2">
@@ -84,6 +99,20 @@ function Portfolio(props) {
                         <br/>
                         <br/>
                         <a href="https://github.com/Nggerber/week-planner">My GitHub Pages Link</a>
+                        <br/>
+                        <br/>
+                        </h6>
+                    </Container>
+                    <Container className="p-2">
+                        <Image id="portfolio-image" className="block-example border border-dark rounded mb-0 p-3" src={budget} fluid alt="me with my millenium falcon shirt" />
+                        <h6 id="portfolio-text" className="block-example border border-dark rounded mb-0 p-3 mt-2">This budget tracker allows users to add and subtract funds from their account. All of this is displayed with a specific tag on an easy to read 
+                        infographic. This application utilizes MongoDb to save the users dat online and IndexedDb to continue showing data while the app is offline.
+                        <br/>
+                        <br/>
+                        <a href="https://github.com/Nggerber/budget-calculator">Link to Deployed Application</a>
+                        <br/>
+                        <br/>
+                        <a href="https://shielded-ravine-76220.herokuapp.com/">My GitHub Pages Link</a>
                         <br/>
                         <br/>
                         </h6>
