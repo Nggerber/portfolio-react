@@ -12,7 +12,7 @@ function About(props) {
 
             <Container fluid>
                 <Row>
-                    <Col><h2 id="homepage-text " className="font-weight-bolder p-5 mt-5">About Me</h2></Col>
+                    <Col><h2 id="homepage-text" className="font-weight-bolder p-5 mt-5 text-center">About Me</h2></Col>
                 </Row>
             </Container>
             <Container>
